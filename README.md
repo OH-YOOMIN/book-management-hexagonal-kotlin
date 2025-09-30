@@ -41,10 +41,11 @@ Kotlin의 간결한 문법(data class, null-safety, 확장 함수 등)은
 ---
 
 ## 📂 모듈 구조
-
+```
 book-management-hexagonal-kotlin
  ├─ domain          <-- 순수 도메인 엔티티, 비즈니스 규칙
  ├─ application     <-- 비즈니스 수행, Port 인터페이스 정의
  ├─ adapter-inbound      <-- API (Controller, DTO) → Application 호출
  ├─ adapter-outbound     <-- DB/외부API,Event → Application Port 구현
  └─ bootstrap       <-- Spring Boot 실행
+```
