@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: book-management
+
+  main:
+    allow-bean-definition-overriding: true
+
+  jpa:
+    open-in-view: false
+
+server:
+  port: 9092
