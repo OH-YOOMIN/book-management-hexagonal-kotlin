@@ -49,3 +49,13 @@ book-management-hexagonal-kotlin
  ├─ adapter-outbound     <-- DB/외부API,Event → Application Port 구현
  └─ bootstrap       <-- Spring Boot 실행
 ```
+
+---
+
+## 🚀 실행 방법
+
+
+   ```bash
+   ./gradlew bootstrap:build
+   ./gradlew bootstrap:bootRun
+
